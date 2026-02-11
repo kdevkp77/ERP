@@ -5,9 +5,9 @@ import type { Visit } from '../../types/index';
 import { useNavigate } from 'react-router-dom';
 
 const MOCK_VISITS: Visit[] = [
-    { id: '1', storeId: '1', auditorId: 'a1', date: '2024-03-20', status: 'planned', templateId: 't1' },
-    { id: '2', storeId: '2', auditorId: 'a1', date: '2024-03-20', status: 'in-progress', templateId: 't2' },
-    { id: '3', storeId: '3', auditorId: 'a1', date: '2024-03-19', status: 'completed', templateId: 't1' },
+    { id: '1', storeId: '1', auditorId: 'a1', date: '2024-03-20', status: 'planned', templateId: 't1', cycleId: 'c1', visitNumber: 1 },
+    { id: '2', storeId: '2', auditorId: 'a1', date: '2024-03-20', status: 'in-progress', templateId: 't2', cycleId: 'c1', visitNumber: 1 },
+    { id: '3', storeId: '3', auditorId: 'a1', date: '2024-03-19', status: 'completed', templateId: 't1', cycleId: 'c1', visitNumber: 1 },
 ];
 
 // Mock store lookup for demo

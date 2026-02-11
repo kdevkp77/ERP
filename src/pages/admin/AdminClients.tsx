@@ -9,19 +9,22 @@ const MOCK_CLIENTS: Client[] = [
         id: '1', name: 'Coca Cola', logo: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=100&h=100&fit=crop', isActive: true,
         countriesCovered: ['USA', 'Canada'], geoValidationRequired: true, allowMultipleDatasets: false,
         colorScheme: { headerBand: '#F40009', buttonForeground: '#ffffff', buttonBackground: '#F40009', background: '#ffffff', text: '#000000' },
-        databaseName: 'db_coke_v1', watermark: 'coke_wm.png', contractPeriods: [], autoMailOnNonCompliance: true, sosCalculationWithAssumption: true
+        databaseName: 'db_coke_v1', watermark: 'coke_wm.png', contractPeriods: [], autoMailOnNonCompliance: true, sosCalculationWithAssumption: true,
+        reportConfig: { reports: [], photoGallery: { enabled: true, allowDownload: true, allowZoom: true } }
     },
     {
         id: '2', name: 'Nestle', logo: 'https://ui-avatars.com/api/?name=Nestle&background=005CA9&color=fff', isActive: true,
         countriesCovered: ['Switzerland', 'France', 'Germany'], geoValidationRequired: true, allowMultipleDatasets: true,
         colorScheme: { headerBand: '#005CA9', buttonForeground: '#ffffff', buttonBackground: '#005CA9', background: '#f8fafc', text: '#333333' },
-        databaseName: 'db_nestle_prod', watermark: 'nestle_confidential.png', contractPeriods: [], autoMailOnNonCompliance: false, sosCalculationWithAssumption: false
+        databaseName: 'db_nestle_prod', watermark: 'nestle_confidential.png', contractPeriods: [], autoMailOnNonCompliance: false, sosCalculationWithAssumption: false,
+        reportConfig: { reports: [], photoGallery: { enabled: true, allowDownload: true, allowZoom: true } }
     },
     {
         id: '3', name: 'Unilever', logo: 'https://ui-avatars.com/api/?name=Unilever&background=1F36C7&color=fff', isActive: false,
         countriesCovered: ['UK', 'Netherlands'], geoValidationRequired: false, allowMultipleDatasets: false,
         colorScheme: { headerBand: '#1F36C7', buttonForeground: '#ffffff', buttonBackground: '#1F36C7', background: '#ffffff', text: '#000000' },
-        databaseName: 'db_unilever_archived', watermark: 'unilever_internal.png', contractPeriods: [], autoMailOnNonCompliance: true, sosCalculationWithAssumption: true
+        databaseName: 'db_unilever_archived', watermark: 'unilever_internal.png', contractPeriods: [], autoMailOnNonCompliance: true, sosCalculationWithAssumption: true,
+        reportConfig: { reports: [], photoGallery: { enabled: true, allowDownload: true, allowZoom: true } }
     },
 ];
 

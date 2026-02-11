@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { Calendar, Plus, Play, Lock, AlertCircle, CheckCircle, RefreshCcw } from 'lucide-react';
-import type { Cycle, VirtualChannel } from '../../types/index';
+import { Play, Lock, AlertCircle, CheckCircle, RefreshCcw } from 'lucide-react';
+import type { Cycle } from '../../types/index';
 
 // Mock Data for Initial State
 const MOCK_CYCLES: Cycle[] = [

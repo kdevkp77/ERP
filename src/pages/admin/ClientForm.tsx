@@ -35,7 +35,7 @@ const ClientForm: React.FC = () => {
     });
 
     const [newCountry, setNewCountry] = useState('');
-    const [selectedCountryForContract, setSelectedCountryForContract] = useState('');
+
 
     // Helper to add country
     const addCountry = () => {
